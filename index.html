@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
   </head>
   <body>
@@ -392,49 +395,237 @@
 
       <section class="business-stats">
         <div class="container">
-          <h2>Business Statistics</h2>
-          <div class="stats-info">
-            <div>
-              <p>Client Increase</p>
-              <img src="images/bar-chart.png" alt="Chart" />
-              <!-- hoặc dùng thư viện biểu đồ JS -->
+          <div class="left-content">
+            <h2>
+              Stocks
+              <span class="highlight">Market Research</span> Financial<br />
+              Report Analysis
+            </h2>
+            <div class="stat-item">
+              <i class="icon">📊</i>
+              <div>
+                <strong>Top Ranking Market Share</strong>
+                <p>
+                  encompasses both the technical and creative elements required
+                  to improve rankings, drive traffic, and increase awareness in
+                  search engines.
+                </p>
+              </div>
             </div>
-            <div>
-              <ul>
-                <li><strong>1200+</strong> Projects</li>
-                <li><strong>900+</strong> Satisfied Clients</li>
-                <li><strong>100+</strong> Awards</li>
+            <div class="stat-item">
+              <i class="icon">📊</i>
+              <div>
+                <strong>Top Ranking Market Share</strong>
+                <p>
+                  encompasses both the technical and creative elements required
+                  to improve rankings, drive traffic, and increase awareness in
+                  search engines.
+                </p>
+              </div>
+            </div>
+            <div class="stat-item">
+              <i class="icon">📊</i>
+              <div>
+                <strong>Top Ranking Market Share</strong>
+                <p>
+                  encompasses both the technical and creative elements required
+                  to improve rankings, drive traffic, and increase awareness in
+                  search engines.
+                </p>
+              </div>
+            </div>
+            <div class="read-more-btn">
+              <button class="read-more">Read more..</button>
+            </div>
+          </div>
+
+          <div class="right-content">
+            <canvas id="barChart" height="220"></canvas>
+          </div>
+        </div>
+      </section>
+      <section class="pricing-section">
+        <div class="container">
+          <h2 class="pricing-title">
+            Package <span class="highlight">Pricing</span>
+          </h2>
+          <p class="pricing-subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem
+            voluptatem obcaecati! Ipsum dolor sit Rem autem voluptatem obcaecati
+          </p>
+
+          <div class="pricing-cards">
+            <!-- Card -->
+            <div class="pricing-card">
+              <div class="card-header">PERSONAL</div>
+              <div class="card-price">696$</div>
+              <ul class="card-features">
+                <li>Provide Statements</li>
+                <li>Case Development</li>
+                <li>Free Consultation</li>
+                <li>Fitness Assessment</li>
               </ul>
+              <button class="card-button">CONTACT NOW</button>
+            </div>
+
+            <!-- Lặp lại 3 thẻ giống nhau -->
+            <div class="pricing-card">
+              <div class="card-header">PERSONAL</div>
+              <div class="card-price">696$</div>
+              <ul class="card-features">
+                <li>Provide Statements</li>
+                <li>Case Development</li>
+                <li>Free Consultation</li>
+                <li>Fitness Assessment</li>
+              </ul>
+              <button class="card-button">CONTACT NOW</button>
+            </div>
+
+            <div class="pricing-card">
+              <div class="card-header">PERSONAL</div>
+              <div class="card-price">696$</div>
+              <ul class="card-features">
+                <li>Provide Statements</li>
+                <li>Case Development</li>
+                <li>Free Consultation</li>
+                <li>Fitness Assessment</li>
+              </ul>
+              <button class="card-button">CONTACT NOW</button>
+            </div>
+
+            <div class="pricing-card">
+              <div class="card-header">PERSONAL</div>
+              <div class="card-price">696$</div>
+              <ul class="card-features">
+                <li>Provide Statements</li>
+                <li>Case Development</li>
+                <li>Free Consultation</li>
+                <li>Fitness Assessment</li>
+              </ul>
+              <button class="card-button">CONTACT NOW</button>
             </div>
           </div>
         </div>
       </section>
       <section class="testimonials">
         <div class="container">
-          <h2>What Our Happy Clients Say</h2>
+          <h2>
+            <span>Happy</span> <span class="highlight">Clients</span> Says
+          </h2>
           <div class="testimonial-grid">
             <div class="testimonial-card">
-              <p>"Very professional and reliable service."</p>
-              <h4>John Smith</h4>
+              <img src="images/service.png" alt="User 1" />
+              <div class="testimonial-content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas
+                  vel sint, ut. Quisquam doloremque minus possimus eligendi
+                  dolore. consectetur adipisicing elit. Quas vel sint doloremque
+                </p>
+                <p class="author">
+                  <span class="name">- Catherine Grace</span>,
+                  <em>CEO apple.inc</em>
+                </p>
+              </div>
             </div>
-            <!-- Lặp lại 2-3 card -->
+            <div class="testimonial-card">
+              <img src="images/service.png" alt="User 2" />
+              <div class="testimonial-content">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas
+                  vel sint, ut. Quisquam doloremque minus possimus eligendi
+                  dolore. consectetur adipisicing elit. Quas vel sint doloremque
+                </p>
+                <p class="author">
+                  <span class="name">- Catherine Grace</span>,
+                  <em>CEO apple.inc</em>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
+
       <section class="latest-news">
         <div class="container">
-          <h2>Latest News</h2>
+          <h2><span>Latest</span> <span class="highlight">News</span></h2>
+          <p class="subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem autem
+            voluptatem obcaecati.
+          </p>
           <div class="news-grid">
             <div class="news-card">
-              <img src="images/news1.jpg" alt="News" />
-              <h4>Consulting Growth in 2024</h4>
-              <p>Short description here...</p>
+              <div class="news-image">
+                <img src="images/service.png" alt="News" />
+                <div class="date-badge">
+                  <span class="day">28</span>
+                  <span class="month">FEB</span>
+                </div>
+              </div>
+              <h4>POST TITLE HERE</h4>
+              <div class="news-meta">
+                <span><i class="fa-regular fa-comment"></i> 214 Comments</span>
+                <span><i class="fa-regular fa-heart"></i> 895 Likes</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisci elit. Molestiae
+                eius illum libero dolor.
+              </p>
+              <button class="news-btn">View Details</button>
             </div>
-            <!-- Lặp lại 3 card -->
+            <div class="news-card">
+              <div class="news-image">
+                <img src="images/service.png" alt="News" />
+                <div class="date-badge">
+                  <span class="day">28</span>
+                  <span class="month">FEB</span>
+                </div>
+              </div>
+              <h4>POST TITLE HERE</h4>
+              <div class="news-meta">
+                <span><i class="fa-regular fa-comment"></i> 214 Comments</span>
+                <span><i class="fa-regular fa-heart"></i> 895 Likes</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisci elit. Molestiae
+                eius illum libero dolor.
+              </p>
+              <button class="news-btn">View Details</button>
+            </div>
+            <div class="news-card">
+              <div class="news-image">
+                <img src="images/service.png" alt="News" />
+                <div class="date-badge">
+                  <span class="day">28</span>
+                  <span class="month">FEB</span>
+                </div>
+              </div>
+              <h4>POST TITLE HERE</h4>
+              <div class="news-meta">
+                <span><i class="fa-regular fa-comment"></i> 214 Comments</span>
+                <span><i class="fa-regular fa-heart"></i> 895 Likes</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisci elit. Molestiae
+                eius illum libero dolor.
+              </p>
+              <button class="news-btn">View Details</button>
+            </div>
           </div>
         </div>
       </section>
     </main>
+    <section class="logo-banner">
+      <div class="container">
+        <div class="logo-row">
+          <img src="images/graphicriver.png" alt="graphicriver" />
+          <img src="images/graphicriver.png" alt="graphicriver" />
+          <img src="images/graphicriver.png" alt="graphicriver" />
+          <img src="images/graphicriver.png" alt="graphicriver" />
+          <img src="images/graphicriver.png" alt="graphicriver" />
+          <img src="images/graphicriver.png" alt="graphicriver" />
+        </div>
+      </div>
+    </section>
 
     <footer class="footer">
       <div class="footer-pattern"></div>
@@ -551,4 +742,43 @@
       </div>
     </div>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    const ctx = document.getElementById("barChart").getContext("2d");
+    new Chart(ctx, {
+      type: "bar",
+      data: {
+        labels: [
+          "January",
+          "February",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+        ],
+        datasets: [
+          {
+            label: "Dataset 1",
+            data: [50, 45, 15, 40, 55, 10, 55],
+            backgroundColor: "#4B3F92",
+          },
+          {
+            label: "Dataset 2",
+            data: [45, 60, 90, 25, 65, 15, 50],
+            backgroundColor: "#5DC7F1",
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        scales: {
+          y: {
+            beginAtZero: true,
+            max: 90,
+          },
+        },
+      },
+    });
+  </script>
 </html>
